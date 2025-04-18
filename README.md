@@ -17,7 +17,7 @@ This project aims to automate visual defect detection in industrial screw images
 
 ## 🎓 Academic Context
 
-This work was developed as part of the **Integrated Deep Learning Project** at [Esprit School of Engineering](https://esprit.tn/), under the supervision of **Professor Hannen Ennine**.
+This work was developed as part of the **Deep Learning Project** at [Esprit School of Engineering](https://esprit.tn/), under the supervision of **Professor Hannen Ennine**.
 
 ---
 
@@ -55,7 +55,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Run the app
-uvicorn app:app --reload
+make run
 ```
 
 Then open your browser at [http://127.0.0.1:8000](http://127.0.0.1:8000)
@@ -75,7 +75,7 @@ Then open your browser at [http://127.0.0.1:8000](http://127.0.0.1:8000)
 ├── requirements.txt        # Python dependencies
 ├── README.md               # You're here!
 ```
-
+Download the screw dataset from [Mvtec AD dataset](https://www.mvtec.com/company/research/datasets/mvtec-ad/downloads)
 ---
 
 ## 🧪 Model Logic
